@@ -1,0 +1,11 @@
+@media screen and (max-width: 1180px) {
+    .services .container .box {
+        width: 320px;
+        max-width: 80%;
+    }
+}
+@media screen and (max-width: 680px) {
+    .hero h2.mid {
+        font-size: 4vw;
+    }
+}

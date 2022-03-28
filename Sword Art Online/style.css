@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#212121;
+    overflow-x: hidden;
+}
+h1, h2 {
+    line-height: 1.2;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color:#efefef
+}
+
+/* end base */
+
+.container {
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto ;
+}
+.parallax {
+    background-color: #efefef;
+    background-repeat: no-repeat;
+    background-position: center top ;
+    background-size: cover;
+
+
+    /* for parallax effect */
+    background-attachment: fixed;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url(sAo.jpg);
+    box-shadow: 0 0 15px #212121;
+
+    position: relative;
+}
+
+.hero header {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    background-color: #21212170;
+}
+.hero header .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;   
+}
+.hero header .logo h2 {
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    color: #6b1212;    
+}
+.mid span {
+    color:crimson;
+}
+.hero header nav a {
+    font-size: .95em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #efefef;
+    margin-left: 15px; 
+}
+.hero header nav a:hover {color:#ffffff}
+
+.hero h2.mid {
+    width: 600px;
+    max-width: 85%;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+    color:#cac8c8;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 5px solid #ff0000;
+    padding: 15px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.services {
+    width: 100%;
+    height: auto;
+    padding: 100px 0 80px;
+    background: url(back4k.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.services .container .box {
+    width: 320px;
+    max-width: 30%;
+    background-color: #000000;
+    color:#14405e;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 12px;
+    text-align: center;
+    transition: .3s box-shadow;
+    transition: 0.5s ease;
+}
+.services .container .box:hover {
+    box-shadow: 0 0 20px #167d81;
+    background:radial-gradient( circle ,#270c52,rgb(0, 0, 0));
+    transform: translateY(-10px);
+    color:#d6d6d6;
+}
+.services .container .box .top {
+    height: 240px;
+    width: auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.services .container .box .top img {
+    width: auto;
+    height: 220px;
+}
+.services .container .box h3 {
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    transition: 0.4s;
+}
+.services .container .box:hover h3 {
+    color: #3f1681;
+}
+.extra {
+    width: 100%;
+    height: 50vh;
+    background-image: url(sword.jpg);
+}
+.sao{
+    width:100%;
+    height: auto;
+    padding: 50px 0 30px;
+    background-color: #000000;
+    font-family: "arial" ,sans-serif;
+}
+.sao .about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.sao .about .sword {
+    width: 1500px;
+    max-width: 100%;
+    background-color: #000000;
+    color:#1b856a;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 12px;
+    text-align: center;
+    transition: .3s box-shadow;
+    transition: 0.5s ease;
+}
+.sao .about .sword:hover {
+    box-shadow: 0 0 20px #6f1681;
+    background-image:url(saokirito.jpg);
+    background-position: center;
+    background-size: cover;
+    transform: translateY(-10px);
+    color:#c2c2c2;
+}
+.sao .about .sword h3 {
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    transition: 0.4s;
+}
+.sao .about .sword:hover h3 {
+    color:#6f1681;
+}
